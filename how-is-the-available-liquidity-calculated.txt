@@ -1,0 +1,7 @@
+If there's no amount supplied, AvailableLiquidity is 0
+
+If 1 user added liquidity, the AvailableLiquidity is the added liquidity
+
+If the user added liquidity AND loaned the funds for a loan to a user, the AvailableLiquidity will be funds NOT loaned, meaning AvailableLiquidity will be totalFundsAdded - fundsLoaned
+
+The crypto score is never taken into consideration
